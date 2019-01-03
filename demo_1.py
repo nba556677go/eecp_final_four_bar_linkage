@@ -144,7 +144,7 @@ if __name__=='__main__':
     a = int(input("Enter input(100/100) : ") )
     b = int(input("Enter coupler(200/250) : "))
     c = int(input("Enter output(200/300) : "))
-    d = int(input("Enter GND(350/200) : ") )
+    d = int(input("Enter frame(350/200) : ") )
     #case= decide_grashoff(a,b,c,d)
     #if case=='ng':
     #Non-grashoff a,b,c,d = 100,200,200,350
