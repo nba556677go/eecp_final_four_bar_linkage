@@ -8,23 +8,23 @@ __環境__:
 Anaconda python 3.7.0 (需含matplotlib 套件)  
 __簡介__:  
     -含四個demo檔分別模擬linkage不同性質，執行方式如下:  
-    1.  __demo_1.py__
-        >直接執行"python3 demo_1.py" 
-        >於"Enter XXX(100/100)"處分別輸入四根桿長，畫出運動模型 
-        >數值輸入參考:  
-        >Non Grashoff: input/coupler/output/frame = 100/200/200/350   
+    1.  __demo_1.py__  
+        >直接執行"python3 demo_1.py"   
+        >於"Enter XXX(100/100)"處分別輸入四根桿長，畫出運動模型   
+        >數值輸入參考:    
+        >Non Grashoff: input/coupler/output/frame = 100/200/200/350     
         >Grashoff: input/coupler/output/frame = 100/250/300/200   
     2. __demo_2_pos.py__   
         >直接執行"python3 demo_2_pos.py"  
         >秀出筆在0.25 , 0.5, 0.75倍coupler的位置圖  
-    3.__demo_3_speed.py__
-        >直接執行"python3 demo_3_speed.py" 
-        >秀出筆在0.5倍coupler之位置圖，速度，加速度
+    3.__demo_3_speed.py__   
+        >直接執行"python3 demo_3_speed.py"  
+        >秀出筆在0.5倍coupler之位置圖，速度，加速度  
     4.__demo_4_period.py__  
-        >直接執行"python3 demo_4_period.py"
-        >在 "please type in Time period:" 處輸入希望幾秒轉完一圈(因週期太大可能在求加速度時xy軸繪圖時shape對不起來，建議取在1-10的數字)
-        >在"please type in pen type (coupler/center)"處填入希望的筆位置(center意指筆在coupler上多加三角結構中心，若希望與上述圖形相同結構，請輸入coupler)
-        >秀出筆在0,0.1,0.2 ... ,1倍coupler之位置圖，速度，加速度
+        >直接執行"python3 demo_4_period.py"   
+        >在 "please type in Time period:" 處輸入希望幾秒轉完一圈(因週期太大可能在求加速度時xy軸繪圖時shape對不起來，建議取在1-10的數字)   
+        >在"please type in pen type (coupler/center)"處填入希望的筆位置(center意指筆在coupler上多加三角結構中心，若希望與其他demo圖形相同結構，請輸入coupler)   
+        >秀出筆在0,0.1,0.2 ... ,1倍coupler之位置圖，速度，加速度    
 __分工表__:  
     1.電機四 b04507025 韓秉勳:軌跡，速度，加速度程式實作，github設置  
     2.機械四 b04502076 賴昶亙:物理公式推導，公式程式實作，demo主講
