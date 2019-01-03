@@ -4,7 +4,7 @@ __Team name__ : team27
 __Team member__ :  
 b04507025 電機四 韓秉勳  
 b04502076 機械四 賴昶亙<br/> 
-![image info](graph.png)  
+![image](https://github.com/nba556677go/eecp_final_four_bar_linkage/blob/master/graph.PNG)  
 __環境__:   
 Windows 10  
 Anaconda python 3.7.0 (需含matplotlib 套件)    
