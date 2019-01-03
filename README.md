@@ -28,7 +28,7 @@ __簡介__:
     4.__demo_4_period.py__  
         >直接執行"python3 demo_4_period.py"   
         >在 "please type in Time period:" 處輸入希望幾秒轉完一圈(因週期太大可能在求加速度時xy軸繪圖時shape對不起來，建議取在1-10的數字)   
-        >在"please type in pen type (coupler/center)"處填入希望的筆位置(center意指筆在coupler上多加三角結構中心，若希望與其他demo圖形相同結構，請輸入coupler)   
+        >在"please type in pen type (coupler/center)"處填入希望的筆位置(center意指筆不在coupler上，而是在coupler上多加的三角結構中心，若希望與其他demo圖形相同結構，請輸入coupler)   
         >秀出筆在0,0.1,0.2 ... ,1倍coupler之位置圖，速度，加速度    
          <br/>  
 __分工表__:  
