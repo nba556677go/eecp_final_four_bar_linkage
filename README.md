@@ -1,9 +1,10 @@
 # eecp_final_four_bar_linkage
-##Project topic: four bar linkage  
+## Project topic: four bar linkage  
 __Team name__ : team27   
 __Team member__ :  
 b04507025 電機四 韓秉勳  
 b04502076 機械四 賴昶亙  
+![image info](./graph.png)  
 __環境__:   
 Windows 10  
 Anaconda python 3.7.0 (需含matplotlib 套件)    
@@ -12,8 +13,8 @@ __簡介__:
     <br/>
     1.  __demo_1.py__  
         >直接執行"python3 demo_1.py"   
-        >於"Enter XXX(100/100)"處分別輸入四根桿長，畫出運動模型   
-        >數值輸入參考:    
+        >於"Enter XXX(non grashoff桿長參考/grashoff桿長參考)"處分別輸入四根桿長，畫出運動模型   
+        >輸入桿長參考:    
         >Non Grashoff: input/coupler/output/frame = 100/200/200/350     
         >Grashoff: input/coupler/output/frame = 100/250/300/200 
         <br/>  
